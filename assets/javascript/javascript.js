@@ -33,6 +33,12 @@ var arrivalTimeData = '';
 var frequencyData = '';
 var minsAwayData = ''; 
 
+$(document).bind('keypress', function(e) {
+    if(e.keyCode==13){
+         $('#submit').trigger('click');
+     }
+});
+
 //Capture Submit Click
 $("#submit").on("click",function(){
     trainName = $("#trainName").val().trim();
