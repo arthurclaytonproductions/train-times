@@ -1,0 +1,29 @@
+body{
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.jumbotron{
+    width:75%;
+    margin:auto;
+    color: white;
+    font-weight: bolder;
+    background-image: url(../images/train.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card{
+    width:75%;
+    margin:auto;
+}
+
+.purple{
+    color: white;
+    background-color: rgb(92, 80, 255);
+}
+
+#submit{
+   background-color: rgb(92, 80, 255);   
+}
