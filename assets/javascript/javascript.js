@@ -21,7 +21,6 @@ var frequency = '';
 
 //Conversion
 var firstTimeSetConv = '';
-var differentTime = '';
 var timeRemanding;
 var timeTillTrain;
 var nextTrain; 
@@ -56,7 +55,6 @@ $("#submit").on("click",function(){
 firstTimeSetConv = moment(firstTrainTime, "hh:mm").subtract(1, "years");
 
 //Current Time
-var currentTime = moment();
 var differentTime = moment().diff(moment(firstTimeSetConv), "minutes"); 
 //Remainding Time
 timeRemanding = differentTime % frequency;
